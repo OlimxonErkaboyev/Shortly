@@ -23,6 +23,9 @@
   font-style: normal;
   font-weight: 700;
 }
+.header {
+  background: #fff;
+}
 
 .container {
   width: 1140px;
@@ -36,6 +39,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 55.18px;
+  padding-bottom: 139px;
 }
 
 .header-top {
@@ -47,6 +51,7 @@
 .top-logo-img {
   width: 120px;
   height: 33px;
+  margin-right: 45px;
 }
 
 .navbar-list {
@@ -54,7 +59,8 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  width: 265px;
+  width: 268px;
+  padding: 0;
 }
 .navbar-list-link {
   text-decoration: none;
@@ -90,4 +96,87 @@
   width: 105px;
   height: 40px;
   padding: 9px 23px 8px 24px;
+}
+.hero-section {
+  background: #fff;
+}
+
+.hero-section-title {
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: #34313d;
+  width: 700px;
+}
+
+.hero-section-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #9e9aa8;
+  width: 500px;
+}
+
+.hero-section-wrapper {
+  display: flex;
+  padding-bottom: 222px;
+}
+
+.hero-section-link {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #2bd0d0;
+  border-radius: 28px;
+  width: 197px;
+  height: 56px;
+  padding: 14px 40px 12px 40px;
+}
+
+.box-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../images/hero-bootom-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 168px;
+  padding: 52px 64.5px;
+}
+
+.box-section-search {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #34313d;
+  text-decoration: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+
+  width: 769px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.box-section-button {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 17.5px 40px;
+
+  width: 188px;
+  height: 64px;
+  background: #2bd0d0;
+  border-radius: 10px;
 }
