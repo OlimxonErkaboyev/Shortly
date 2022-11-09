@@ -89,6 +89,10 @@
   color: #9e9aa8;
 }
 
+.header-top-list-link:hover {
+  color: #34313d;
+}
+
 .header-top-list-link-sign:hover {
   background: #9ae3e3;
   border-radius: 28px;
